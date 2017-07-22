@@ -3,7 +3,6 @@ body {
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
-  font-size: 22px;
   text-align: center;
 }
 
@@ -24,6 +23,21 @@ margin-right: 10px;
 .nav span {
   display: inline-block;
   text-decoration: underline;
+  text-align: left;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
+  padding border-bottom: 70px;
+  position: relative;
+  top: 70px;
+  margin-bottom: 60px;
 }
 
 .hero {
@@ -51,4 +65,8 @@ display: flex;
   height: 200px;
   width: 300px;
   margin-top: 10px;
+}
+
+.contact {
+  height: 200px;
 }
