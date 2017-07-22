@@ -1,0 +1,54 @@
+body {
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  font-size: 22px;
+  text-align: center;
+}
+
+header {
+position: fixed;
+z-index: 5;
+display: flex;
+border-bottom: 1px solid seashell;
+height: 69px;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.logo {
+  height: 50px;
+}
+
+.nav span {
+  display: inline-block;
+  text-decoration: underline;
+}
+
+.hero {
+  background-image: url("../images/background.jpg");
+  height: 700px;
+  width: 1200px;
+}
+
+.herotext {
+background-color: black;
+vertical-align: middle;
+display: flex;
+}
+
+.month {
+  width: 1000px;
+}
+
+.monthimages {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.image-text {
+  height: 200px;
+  width: 300px;
+  margin-top: 10px;
+}
