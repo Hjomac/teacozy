@@ -48,18 +48,19 @@ a {
   position: relative;
 }
 
-.herotext {
-  background-image: url("../images/background.jpg");
-  height: 700px;
-  width: 1200px;
-  display: flex;
-
+.hero {
+  display: inline-block;
 }
 
-.herotext {
+.mainhero {
+  background-image: url("../images/background.jpg");
+}
+
+.mainhero.image-text {
 background-color: black;
 vertical-align: middle;
 display: flex;
+height: 700px;
 width: 1200px;
 }
 
