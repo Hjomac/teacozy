@@ -21,6 +21,7 @@ margin-right: 10px;
 width: 100%;
 align-items: center;
 justify-content: space-between;
+top: 0;
 }
 
 .logo {
@@ -60,14 +61,19 @@ a {
 
 .mainhero {
   background-image: url("../images/background.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1200px;
+  height: 700px;
+  margin: 70px auto;
 }
 
 .mainhero.image-text {
 background-color: black;
 vertical-align: middle;
 display: flex;
-height: 700px;
-width: 1200px;
+text-align: center;
 }
 
 .month {
