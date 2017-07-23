@@ -45,18 +45,22 @@ a {
   position: relative;
   top: 70px;
   margin-bottom: 60px;
+  position: relative;
 }
 
-.hero {
+.herotext {
   background-image: url("../images/background.jpg");
   height: 700px;
   width: 1200px;
+  display: flex;
+
 }
 
 .herotext {
 background-color: black;
 vertical-align: middle;
 display: flex;
+width: 1200px;
 }
 
 .month {
