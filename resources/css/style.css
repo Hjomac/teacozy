@@ -14,10 +14,14 @@ border-bottom: 1px solid seashell;
 height: 69px;
 margin-left: 10px;
 margin-right: 10px;
+width: 100%;
+align-items: center;
+justify-content: space-between;
 }
 
 .logo {
   height: 50px;
+  display: flex;
 }
 
 .nav span {
@@ -27,7 +31,10 @@ margin-right: 10px;
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
+}
 
+a {
+  color: seashell;
 }
 
 .container {
